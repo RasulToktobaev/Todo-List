@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://st2.depositphotos.com/5266903/7940/i/450/depositphotos_79407698-stock-photo-task-list-icon-from-commerce.jpg">
+</head>
+<body>
+
+<section class="todo">
+    <div class="todo__block">
+        <h1 class="todo__title">TodoList</h1>
+        <form class="todo__form">
+            <input required placeholder="Add Task" type="text" class="todo__field">
+            <button type="submit" class="todo__add">Add</button>
+            <p class="todo__error">Такая задача уже существует</p>
+        </form>
+
+
+        <ul class="todo__list">
+
+
+        </ul>
+
+        <div class="todo__bot">
+            <div class="todo__lvl">
+                <span class="todo__lvl-done">1</span> of <span class="todo__lvl-all">3</span>   tasks done
+            </div>
+            <button class="todo__del-all"> Remove checked</button>
+        </div>
+
+    </div>
+</section>
+
+
+<script src="main.js"></script>
+</body>
+</html>
